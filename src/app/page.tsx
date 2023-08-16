@@ -1,18 +1,19 @@
-import Image from 'next/image'
-import { SideBar } from './components/sidebar/sidebar';
-import { Profile } from './components/Profile/profile';
-import { DashboardComponent } from './components/dashboard/dashboard';
+import BarChart from "./components/BarChart";
+import Header from "./components/Header";
+import RecentOrders from "./components/RecentOrders";
+import TopCards from "./components/TopCards";
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="inbox-dashboard-view">
-        <div className="div">
-          <DashboardComponent />
-          <Profile/>
-          <SideBar />
+    <> 
+    <Header />
+        <TopCards />
+        <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
+          <BarChart />
+          <RecentOrders />
         </div>
-      </div>
-    </main>
+
+    </>
   );
 }

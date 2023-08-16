@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: "Averta Demo PE Cutted Demo-Regular";
   src: url("https://anima-uploads.s3.amazonaws.com/5a8ffd03754cd5000cbb90d3/Averta-Regular.otf") format("opentype");
