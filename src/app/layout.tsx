@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Sidebar from './components/Sidebar'
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Script src="http://127.0.0.1:5500/js/jquery.min.js"></Script>
+      <Script
+        src="http://127.0.0.1:5500/js/config.widget.js"
+        type="module" id="script-config" service-konecta=""
+        domain-konecta="http://127.0.0.1:5500/"
+        api-achorario="https://asistenciawebv2-dev.grupokonecta.co:5005/">
+      </Script>
       <body className={inter.className}>
         <Sidebar>
           {children}

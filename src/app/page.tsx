@@ -1,10 +1,14 @@
+'use client'
 import BarChart from "./components/BarChart";
 import Header from "./components/Header";
 import RecentOrders from "./components/RecentOrders";
 import TopCards from "./components/TopCards";
 
+const value = 'Client?';
 
 export default function Home() {
+  
+  console.log("🚀 ~ file: page.tsx:7 ~ value:", value)
   return (
     <> 
     <Header />
