@@ -1,7 +1,9 @@
+import Image from 'next/image'
+
 export const DashboardComponent = () => {
     return (
         <div>
-            <img
+            <Image
                 className="line"
                 alt="Line"
                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-35.svg"
@@ -16,7 +18,7 @@ export const DashboardComponent = () => {
                 <div className="label">Unassigned</div>
                 <div className="cash">350</div>
                 <div className="icon">
-                    <img
+                    <Image
                         className="img"
                         alt="Inbox"
                         src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/inbox-1.svg"
@@ -27,7 +29,7 @@ export const DashboardComponent = () => {
                 <div className="label">Assigned</div>
                 <div className="cash">450</div>
                 <div className="icon">
-                    <img
+                    <Image
                         className="img"
                         alt="User"
                         src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/user-1.svg"
@@ -38,7 +40,7 @@ export const DashboardComponent = () => {
                 <div className="label">Closed</div>
                 <div className="cash">3500</div>
                 <div className="icon">
-                    <img
+                    <Image
                         className="img"
                         alt="Checkmark"
                         src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/checkmark-1.svg"
@@ -49,7 +51,7 @@ export const DashboardComponent = () => {
                 <div className="label">Channels</div>
                 <div className="cash">3</div>
                 <div className="icon">
-                    <img
+                    <Image
                         className="img"
                         alt="Messaging"
                         src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/messaging.svg"
@@ -60,7 +62,7 @@ export const DashboardComponent = () => {
                 <div className="magic-chart">
                     <div className="frame">
                         <div className="text-wrapper-3">Today</div>
-                        <img
+                        <Image
                             className="arrow-chevron-big"
                             alt="Arrow chevron big"
                             src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/arrow---chevron-big-down.svg"
@@ -69,7 +71,7 @@ export const DashboardComponent = () => {
                     <div className="content">
                         <div className="title">
                             <div className="value">
-                                <img
+                                <Image
                                     className="shape"
                                     alt="Shape"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/shape.svg"
@@ -95,7 +97,7 @@ export const DashboardComponent = () => {
                                         <div className="y">
                                             <div className="row">
                                                 <div className="text-wrapper-6">30</div>
-                                                <img
+                                                <Image
                                                     className="divider"
                                                     alt="Divider"
                                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/divider-3.svg"
@@ -103,7 +105,7 @@ export const DashboardComponent = () => {
                                             </div>
                                             <div className="row">
                                                 <div className="text-wrapper-6">20</div>
-                                                <img
+                                                <Image
                                                     className="divider"
                                                     alt="Divider"
                                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/divider-3.svg"
@@ -111,7 +113,7 @@ export const DashboardComponent = () => {
                                             </div>
                                             <div className="row">
                                                 <div className="text-wrapper-6">10</div>
-                                                <img
+                                                <Image
                                                     className="divider"
                                                     alt="Divider"
                                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/divider-3.svg"
@@ -119,7 +121,7 @@ export const DashboardComponent = () => {
                                             </div>
                                             <div className="row">
                                                 <div className="text-wrapper-7">0</div>
-                                                <img
+                                                <Image
                                                     className="divider"
                                                     alt="Divider"
                                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/divider-3.svg"
@@ -177,7 +179,7 @@ export const DashboardComponent = () => {
                                 </div>
                                 <div className="chart">
                                     <div className="overlap-group">
-                                        <img
+                                        <Image
                                             className="chart-2"
                                             alt="Chart"
                                             src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/chart2.svg"
@@ -219,7 +221,7 @@ export const DashboardComponent = () => {
             </div>
             <div className="leaderboard">
                 <div className="leaderboard-2">LEADERBOARD</div>
-                <img
+                <Image
                     className="calendar"
                     alt="Calendar"
                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/calendar.svg"
@@ -228,13 +230,13 @@ export const DashboardComponent = () => {
                     <div className="text-wrapper-10">Most Sales</div>
                     <div className="overlap-group-wrapper">
                         <div className="overlap-group-3">
-                            <img
+                            <Image
                                 className="ellipse-3"
                                 alt="Ellipse"
                                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/ellipse-1-1@2x.png"
                             />
                             <div className="laurel-wreath-wrapper">
-                                <img
+                                <Image
                                     className="laurel-wreath"
                                     alt="Laurel wreath"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/laurel-wreath.svg"
@@ -250,7 +252,7 @@ export const DashboardComponent = () => {
                         <div className="element-2">2ND</div>
                         <div className="text-wrapper-13">Nimi Martins</div>
                         <div className="text-wrapper-14">2300</div>
-                        <img
+                        <Image
                             className="ellipse-4"
                             alt="Ellipse"
                             src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/ellipse-23-2@2x.png"
@@ -262,7 +264,7 @@ export const DashboardComponent = () => {
                         <div className="element-2">3RD</div>
                         <div className="text-wrapper-13">Yomi Ndu</div>
                         <div className="text-wrapper-14">2300</div>
-                        <img
+                        <Image
                             className="ellipse-4"
                             alt="Ellipse"
                             src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/ellipse-23-1@2x.png"
@@ -274,7 +276,7 @@ export const DashboardComponent = () => {
                         <div className="element-2">4TH</div>
                         <div className="text-wrapper-13">Akin Siyanbola</div>
                         <div className="text-wrapper-14">2300</div>
-                        <img
+                        <Image
                             className="ellipse-4"
                             alt="Ellipse"
                             src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/ellipse-23@2x.png"
@@ -287,14 +289,14 @@ export const DashboardComponent = () => {
                     <div className="base">
                         <div className="atom-cell">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-2"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
                                 />
                             </div>
                             <div className="text-wrapper-15">Text</div>
-                            <img
+                            <Image
                                 className="left-icon"
                                 alt="Left icon"
                                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -302,14 +304,14 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-2">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-3"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
                                 />
                             </div>
                             <div className="text-wrapper-15">Text</div>
-                            <img
+                            <Image
                                 className="left-icon-2"
                                 alt="Left icon"
                                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -317,14 +319,14 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-3">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-4"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
                                 />
                             </div>
                             <div className="text-wrapper-15">Text</div>
-                            <img
+                            <Image
                                 className="left-icon-3"
                                 alt="Left icon"
                                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -332,14 +334,14 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-4">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-5"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
                                 />
                             </div>
                             <div className="text-wrapper-15">Text</div>
-                            <img
+                            <Image
                                 className="left-icon-4"
                                 alt="Left icon"
                                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -347,14 +349,14 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-5">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-6"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
                                 />
                             </div>
                             <div className="text-wrapper-15">Text</div>
-                            <img
+                            <Image
                                 className="left-icon-5"
                                 alt="Left icon"
                                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -362,14 +364,14 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-6">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-7"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
                                 />
                             </div>
                             <div className="text-wrapper-15">Text</div>
-                            <img
+                            <Image
                                 className="left-icon-6"
                                 alt="Left icon"
                                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -377,14 +379,14 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-7">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-8"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
                                 />
                             </div>
                             <div className="text-wrapper-15">Text</div>
-                            <img
+                            <Image
                                 className="left-icon-7"
                                 alt="Left icon"
                                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -392,14 +394,14 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-8">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-9"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
                                 />
                             </div>
                             <div className="text-wrapper-15">Text</div>
-                            <img
+                            <Image
                                 className="left-icon-8"
                                 alt="Left icon"
                                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -407,14 +409,14 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-9">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-10"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
                                 />
                             </div>
                             <div className="text-wrapper-15">Text</div>
-                            <img
+                            <Image
                                 className="left-icon-9"
                                 alt="Left icon"
                                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -422,14 +424,14 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-10">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-11"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
                                 />
                             </div>
                             <div className="text-wrapper-15">Text</div>
-                            <img
+                            <Image
                                 className="left-icon-10"
                                 alt="Left icon"
                                 src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -437,7 +439,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-11">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-12"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -450,7 +452,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-12">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-13"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -463,7 +465,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-13">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-14"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -476,7 +478,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-14">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-15"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -489,7 +491,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-15">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-16"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -502,7 +504,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-16">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-17"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -515,7 +517,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-17">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-18"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -528,7 +530,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-18">
                             <div className="division-line">
-                                <img
+                                <Image
                                     className="line-19"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -647,7 +649,7 @@ export const DashboardComponent = () => {
                     <div className="base">
                         <div className="atom-cell-43">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-20"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -657,7 +659,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-44">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-21"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -667,7 +669,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-45">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-22"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -677,7 +679,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-46">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-23"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -687,7 +689,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-47">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-24"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -697,7 +699,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-48">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-25"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -707,7 +709,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-49">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-26"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -717,7 +719,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-50">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-27"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -727,7 +729,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-51">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-28"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -737,7 +739,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-52">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-29"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -747,7 +749,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-53">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-30"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -757,7 +759,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-54">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-31"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -767,7 +769,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-55">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-32"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -777,7 +779,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-56">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-33"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -787,7 +789,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-57">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-34"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -797,7 +799,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-58">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-35"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -807,7 +809,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-59">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-36"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
@@ -817,7 +819,7 @@ export const DashboardComponent = () => {
                         </div>
                         <div className="atom-cell-60">
                             <div className="line-wrapper">
-                                <img
+                                <Image
                                     className="line-37"
                                     alt="Line"
                                     src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
