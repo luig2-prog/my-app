@@ -38,7 +38,16 @@ export const Button = ({
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      className={['storybook-button', `storybook-button--${size}`, `bg-[#1266f1] inline-block w-full rounded bg-primary px-7 pb-2.5 pt-3 text-sm 
+        font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] 
+        transition duration-150 ease-in-out hover:bg-primary-600 
+        hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] 
+        focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] 
+        focus:outline-none focus:ring-0 active:bg-primary-700 
+        active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] 
+        light:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] 
+        light:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] 
+        light:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] `, mode].join(' ')}
       {...props}
     >
       {label}
