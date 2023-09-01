@@ -11,7 +11,6 @@ interface LayoutProps {
 }
 
 const Sidebar: React.FC<LayoutProps> = ({ children }) => {
-  console.log("🚀 ~ file: Sidebar.tsx:14 ~ children:", children)
   return (
     <div className='flex'>
       <div className='fixed w-20 h-screen p-4 bg-white border-r-[1px] flex flex-col justify-between'>
