@@ -1,8 +1,7 @@
-import TopCards from "../components/TopCards";
-import BarChart from "../components/BarChart";
-import RecentOrders from "../components/RecentOrders";
-import Header from "../components/Header";
-
+import BarChart from "@/components/BarChart";
+import Header from "@/components/Header";
+import RecentOrders from "@/components/RecentOrders";
+import TopCards from "@/components/TopCards";
 
 const value = 'Client?';
 
