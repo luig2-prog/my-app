@@ -1,14 +1,43 @@
 'use client'
 
-import { useRouter } from 'next/navigation'
-import { Button } from '@/stories/Button'
+import React, { useState, ChangeEvent, FormEvent } from 'react';
+import { useRouter } from 'next/navigation';
+import { Button } from '@/stories/Button';
 import Cookies from 'js-cookie';
+import { login } from '@/app/services/login';
 
 export const LoginForm = () => {
-    const router = useRouter()
+    const router = useRouter();
+    const [usernameLogin, setUsernameLogin] = useState<string>('');
+    const [passwordLogin, setPasswordLogin] = useState<string>('');
 
+    const handleLogin = async (e: FormEvent) => {
+        e.preventDefault();
+        console.log('handleLogin: ', e.target);
+        try {
+            await login(usernameLogin, passwordLogin);
+
+            const cookieName = 'myTokenName';
+            Cookies.set(cookieName, 'prueba');
+            console.log(Cookies.get(cookieName));
+            router.push('/dashboard');
+        } catch (error) {
+            console.error('Error en el inicio de sesión:', error);
+            // Puedes manejar el error de inicio de sesión aquí y mostrar un mensaje al usuario.
+        }
+    };
+
+    const handleUsernameChange = (e: ChangeEvent<HTMLInputElement>) => {
+        console.log('handleUsernameChange', e.target.value)
+        setUsernameLogin(e.target.value);
+    };
+
+    const handlePasswordChange = (e: ChangeEvent<HTMLInputElement>) => {
+        setPasswordLogin(e.target.value);
+    };
+    
     return (
-        <form>
+        <form onSubmit={handleLogin}>
             {/* Email input */}
             <div className="relative mb-6" data-te-input-wrapper-init="">
                 <input
@@ -22,6 +51,7 @@ export const LoginForm = () => {
                         [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                     id="exampleFormControlInput3"
                     placeholder="Email address"
+                    onChange={handleUsernameChange}
                 />
             </div>
             {/* Password input */}
@@ -37,6 +67,7 @@ export const LoginForm = () => {
                     [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                     id="exampleFormControlInput33"
                     placeholder="Password"
+                    onChange={handlePasswordChange}
                 />
             </div>
             {/* Forgot password link */}
@@ -50,12 +81,11 @@ export const LoginForm = () => {
             </a>
             <Button backgroundColor="#1266f1"
                 label="Buttonsss"
-                onClick={() => { 
+                onClick={() => {
                     const cookieName = 'myTokenName'
-                    Cookies.set(cookieName,'prueba')
+                    Cookies.set(cookieName, 'prueba')
                     console.log(Cookies.get(cookieName));
                     router.push('/dashboard')
-
                 }}
             />
         </form>

@@ -9,7 +9,7 @@ export default function ssss() {
           <Image
             className="line"
             alt="Line"
-            src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-35.svg"
+            src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
           />
           <p className="hi-nimi">
             <span className="text-wrapper">Hi</span>
@@ -24,7 +24,7 @@ export default function ssss() {
               <Image
                 className="img"
                 alt="Inbox"
-                src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/inbox-1.svg"
+                src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
               />
             </div>
           </div>
@@ -35,7 +35,7 @@ export default function ssss() {
               <Image
                 className="img"
                 alt="User"
-                src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/user-1.svg"
+                src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
               />
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function ssss() {
               <Image
                 className="img"
                 alt="Checkmark"
-                src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/checkmark-1.svg"
+                src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
               />
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function ssss() {
               <Image
                 className="img"
                 alt="Messaging"
-                src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/messaging.svg"
+                src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
               />
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function ssss() {
                     <Image
                       className="shape"
                       alt="Shape"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/shape.svg"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                     <div className="conversations">CONVERSATIONS</div>
                   </div>
@@ -103,7 +103,7 @@ export default function ssss() {
                             <Image
                               className="divider"
                               alt="Divider"
-                              src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/divider-3.svg"
+                              src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                             />
                           </div>
                           <div className="row">
@@ -111,7 +111,7 @@ export default function ssss() {
                             <Image
                               className="divider"
                               alt="Divider"
-                              src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/divider-3.svg"
+                              src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                             />
                           </div>
                           <div className="row">
@@ -119,7 +119,7 @@ export default function ssss() {
                             <Image
                               className="divider"
                               alt="Divider"
-                              src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/divider-3.svg"
+                              src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                             />
                           </div>
                           <div className="row">
@@ -127,7 +127,7 @@ export default function ssss() {
                             <Image
                               className="divider"
                               alt="Divider"
-                              src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/divider-3.svg"
+                              src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                             />
                           </div>
                         </div>
@@ -185,7 +185,7 @@ export default function ssss() {
                         <Image
                           className="chart-2"
                           alt="Chart"
-                          src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/chart2.svg"
+                          src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                         />
                         <div className="position">
                           <div className="indicator">
@@ -227,7 +227,7 @@ export default function ssss() {
             <Image
               className="calendar"
               alt="Calendar"
-              src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/calendar.svg"
+              src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
             />
             <div className="group">
               <div className="text-wrapper-10">Most Sales</div>
@@ -236,13 +236,13 @@ export default function ssss() {
                   <Image
                     className="ellipse-3"
                     alt="Ellipse"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/ellipse-1-1@2x.png"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                   <div className="laurel-wreath-wrapper">
                     <Image
                       className="laurel-wreath"
                       alt="Laurel wreath"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/laurel-wreath.svg"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                 </div>
@@ -258,7 +258,7 @@ export default function ssss() {
                 <Image
                   className="ellipse-4"
                   alt="Ellipse"
-                  src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/ellipse-23-2@2x.png"
+                  src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                 />
               </div>
             </div>
@@ -270,7 +270,7 @@ export default function ssss() {
                 <Image
                   className="ellipse-4"
                   alt="Ellipse"
-                  src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/ellipse-23-1@2x.png"
+                  src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                 />
               </div>
             </div>
@@ -282,7 +282,7 @@ export default function ssss() {
                 <Image
                   className="ellipse-4"
                   alt="Ellipse"
-                  src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/ellipse-23@2x.png"
+                  src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                 />
               </div>
             </div>
@@ -295,14 +295,14 @@ export default function ssss() {
                     <Image
                       className="line-2"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Text</div>
                   <Image
                     className="left-icon"
                     alt="Left icon"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
                 <div className="atom-cell-2">
@@ -310,14 +310,14 @@ export default function ssss() {
                     <Image
                       className="line-3"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Text</div>
                   <Image
                     className="left-icon-2"
                     alt="Left icon"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
                 <div className="atom-cell-3">
@@ -325,14 +325,14 @@ export default function ssss() {
                     <Image
                       className="line-4"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Text</div>
                   <Image
                     className="left-icon-3"
                     alt="Left icon"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
                 <div className="atom-cell-4">
@@ -340,14 +340,14 @@ export default function ssss() {
                     <Image
                       className="line-5"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Text</div>
                   <Image
                     className="left-icon-4"
                     alt="Left icon"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
                 <div className="atom-cell-5">
@@ -355,14 +355,14 @@ export default function ssss() {
                     <Image
                       className="line-6"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Text</div>
                   <Image
                     className="left-icon-5"
                     alt="Left icon"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
                 <div className="atom-cell-6">
@@ -370,14 +370,14 @@ export default function ssss() {
                     <Image
                       className="line-7"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Text</div>
                   <Image
                     className="left-icon-6"
                     alt="Left icon"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
                 <div className="atom-cell-7">
@@ -385,14 +385,14 @@ export default function ssss() {
                     <Image
                       className="line-8"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Text</div>
                   <Image
                     className="left-icon-7"
                     alt="Left icon"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
                 <div className="atom-cell-8">
@@ -400,14 +400,14 @@ export default function ssss() {
                     <Image
                       className="line-9"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Text</div>
                   <Image
                     className="left-icon-8"
                     alt="Left icon"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
                 <div className="atom-cell-9">
@@ -415,14 +415,14 @@ export default function ssss() {
                     <Image
                       className="line-10"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Text</div>
                   <Image
                     className="left-icon-9"
                     alt="Left icon"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
                 <div className="atom-cell-10">
@@ -430,14 +430,14 @@ export default function ssss() {
                     <Image
                       className="line-11"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Text</div>
                   <Image
                     className="left-icon-10"
                     alt="Left icon"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
                 <div className="atom-cell-11">
@@ -445,7 +445,7 @@ export default function ssss() {
                     <Image
                       className="line-12"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Instock</div>
@@ -458,7 +458,7 @@ export default function ssss() {
                     <Image
                       className="line-13"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Instock</div>
@@ -471,7 +471,7 @@ export default function ssss() {
                     <Image
                       className="line-14"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Instock</div>
@@ -484,7 +484,7 @@ export default function ssss() {
                     <Image
                       className="line-15"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Instock</div>
@@ -497,7 +497,7 @@ export default function ssss() {
                     <Image
                       className="line-16"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Out of Stock</div>
@@ -510,7 +510,7 @@ export default function ssss() {
                     <Image
                       className="line-17"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Instock</div>
@@ -523,7 +523,7 @@ export default function ssss() {
                     <Image
                       className="line-18"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-15">Out of Stock</div>
@@ -536,7 +536,7 @@ export default function ssss() {
                     <Image
                       className="line-19"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-16">Instock</div>
@@ -655,7 +655,7 @@ export default function ssss() {
                     <Image
                       className="line-20"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">Text</div>
@@ -665,7 +665,7 @@ export default function ssss() {
                     <Image
                       className="line-21"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">Text</div>
@@ -675,7 +675,7 @@ export default function ssss() {
                     <Image
                       className="line-22"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">Text</div>
@@ -685,7 +685,7 @@ export default function ssss() {
                     <Image
                       className="line-23"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">Text</div>
@@ -695,7 +695,7 @@ export default function ssss() {
                     <Image
                       className="line-24"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">Text</div>
@@ -705,7 +705,7 @@ export default function ssss() {
                     <Image
                       className="line-25"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">Text</div>
@@ -715,7 +715,7 @@ export default function ssss() {
                     <Image
                       className="line-26"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">Text</div>
@@ -725,7 +725,7 @@ export default function ssss() {
                     <Image
                       className="line-27"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">Text</div>
@@ -735,7 +735,7 @@ export default function ssss() {
                     <Image
                       className="line-28"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">Text</div>
@@ -745,7 +745,7 @@ export default function ssss() {
                     <Image
                       className="line-29"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">Text</div>
@@ -755,7 +755,7 @@ export default function ssss() {
                     <Image
                       className="line-30"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">XYZ - 1010</div>
@@ -765,7 +765,7 @@ export default function ssss() {
                     <Image
                       className="line-31"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">XYZ - 1009</div>
@@ -775,7 +775,7 @@ export default function ssss() {
                     <Image
                       className="line-32"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">XYZ - 1008</div>
@@ -785,7 +785,7 @@ export default function ssss() {
                     <Image
                       className="line-33"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">XYZ - 1007</div>
@@ -795,7 +795,7 @@ export default function ssss() {
                     <Image
                       className="line-34"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">XYZ - 1006</div>
@@ -805,7 +805,7 @@ export default function ssss() {
                     <Image
                       className="line-35"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">XYZ - 1005</div>
@@ -815,7 +815,7 @@ export default function ssss() {
                     <Image
                       className="line-36"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-21">XYZ - 1004</div>
@@ -825,7 +825,7 @@ export default function ssss() {
                     <Image
                       className="line-37"
                       alt="Line"
-                      src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/line-63@2x.png"
+                      src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     />
                   </div>
                   <div className="text-wrapper-22">XYZ - 1003</div>
@@ -849,7 +849,7 @@ export default function ssss() {
             <Image
               className="oval"
               alt="Oval"
-              src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/oval@2x.png"
+              src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
             />
             <Image
               className="glyph-chevrondown"
@@ -862,7 +862,7 @@ export default function ssss() {
             <Image
               className="group-6"
               alt="Group"
-              src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/group-179@2x.png"
+              src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
             />
             <div className="group-7">
               <div className="group-8">
@@ -874,7 +874,7 @@ export default function ssss() {
                   <Image
                     className="img-2"
                     alt="Categorize"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/categorize.svg"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
               </div>
@@ -884,7 +884,7 @@ export default function ssss() {
                   <Image
                     className="img-2"
                     alt="Inbox"
-                    src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/inbox.svg"
+                    src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   />
                 </div>
               </div>
@@ -893,7 +893,7 @@ export default function ssss() {
                 <Image
                   className="img-2"
                   alt="User"
-                  src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/user.svg"
+                  src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                 />
               </div>
               <div className="group-14">
@@ -901,7 +901,7 @@ export default function ssss() {
                 <Image
                   className="img-2"
                   alt="Email"
-                  src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/email.svg"
+                  src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                 />
               </div>
               <div className="group-15">
@@ -909,7 +909,7 @@ export default function ssss() {
                 <Image
                   className="img-2"
                   alt="Star filled"
-                  src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/star-filled.svg"
+                  src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                 />
               </div>
               <div className="group-16">
@@ -917,7 +917,7 @@ export default function ssss() {
                 <Image
                   className="img-2"
                   alt="Edit"
-                  src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/edit.svg"
+                  src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                 />
               </div>
               <div className="group-17">
@@ -925,7 +925,7 @@ export default function ssss() {
                 <Image
                   className="img-2"
                   alt="Checkmark"
-                  src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/checkmark.svg"
+                  src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                 />
               </div>
               <div className="group-18">
@@ -933,7 +933,7 @@ export default function ssss() {
                 <Image
                   className="img-2"
                   alt="Snooze"
-                  src="https://generation-sessions.s3.amazonaws.com/947469ed444630526ba2301225c54f44/img/snooze.svg"
+                  src="https://plus.unsplash.com/premium_photo-1664047543348-1536f15d248c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                 />
               </div>
             </div>
