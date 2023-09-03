@@ -3,9 +3,11 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function middleware(request: NextRequest) {
   const jwt = request.cookies.get("myTokenName");
-  console.log("🚀 ~ file: middleware.ts:6 ~ middleware ~ jwt:", jwt)
-
-  // if (!jwt) return NextResponse.redirect(new URL("/login", request.url));
+  console.log("🚀 ~ file: middleware.ts:6 ~ middleware ~ jwt:", request.nextUrl.pathname)
+  if (request.nextUrl.pathname.startsWith('/dashboard')) {
+    if (!jwt) return NextResponse.redirect(new URL("/", request.url));
+  }
+  // if (!jwt) return NextResponse.redirect(new URL("/", request.url));
 
   // this condition avoid to show the login page if the user is logged in
   // if (jwt) {
@@ -31,6 +33,5 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/"],
-  // matcher: ["/dashboard/:path*"],
+  matcher: ["/", "/dashboard/:path*"],
 };
