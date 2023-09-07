@@ -4,7 +4,8 @@ import React, { useEffect } from 'react';
 import Cookies from 'js-cookie';
 import { useRouter } from 'next/navigation'
 
-const Header = () => {
+
+const Header = (name: any) => {
   const cookieName = 'myTokenName';
   const router = useRouter()
 
@@ -20,7 +21,7 @@ const Header = () => {
 
   return (
     <div className='flex justify-between px-4 pt-4'>
-        <h2>Dashboard</h2>
+        <h2>{name}</h2>
         <h2>Welcome Back, Clint</h2>
         <Button backgroundColor="#1266f1" label="Cerrar sesión" onClick={() => {
           console.log('Es')

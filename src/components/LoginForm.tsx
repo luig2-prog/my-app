@@ -15,7 +15,8 @@ export const LoginForm = () => {
         e.preventDefault();
         console.log('handleLogin: ', e.target);
         try {
-            await login(usernameLogin, passwordLogin);
+            console.log('handleLogin', usernameLogin, passwordLogin)
+            const data = await login(usernameLogin, passwordLogin);
 
             const cookieName = 'myTokenName';
             Cookies.set(cookieName, 'prueba');
@@ -28,14 +29,13 @@ export const LoginForm = () => {
     };
 
     const handleUsernameChange = (e: ChangeEvent<HTMLInputElement>) => {
-        console.log('handleUsernameChange', e.target.value)
         setUsernameLogin(e.target.value);
     };
 
     const handlePasswordChange = (e: ChangeEvent<HTMLInputElement>) => {
         setPasswordLogin(e.target.value);
     };
-    
+
     return (
         <form onSubmit={handleLogin}>
             {/* Email input */}
@@ -72,7 +72,7 @@ export const LoginForm = () => {
             </div>
             {/* Forgot password link */}
             {/* Submit button */}
-            <Button backgroundColor="#1266f1" label="Send" />
+            <button type="submit">ok</button>
             <a
                 href="#!"
                 className="text-center text-primary transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 light:text-primary-400 light:hover:text-primary-500 light:focus:text-primary-500 light:active:text-primary-600"
