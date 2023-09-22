@@ -1,4 +1,4 @@
-import { LoginForm } from '@/components/LoginForm';
+import { LoginForm } from '@/components/login-form';
 import Image from 'next/image';
 import React from 'react';
 
@@ -16,13 +16,14 @@ const login = () => {
               height={300}
             />
           </div>
-          <div className="md:w-8/12 lg:ml-6 lg:w-5/12">
-            <LoginForm />            
+          <div className="md:w-8/12 lg:ml-6 h-1/2 lg:w-5/12 block rounded-lg bg-white p-6 
+              shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
+            <LoginForm />
           </div>
         </div>
       </div >
     </section >
-  );
-};
+  )
+}
 
 export default login;

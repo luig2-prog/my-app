@@ -19,6 +19,8 @@ interface ButtonProps {
    */
   label: string;
 
+  type?: 'submit' | 'reset' | 'button' | undefined;
+
   color?: string;
   /**
    * Optional click handler
@@ -35,12 +37,13 @@ export const Button = ({
   backgroundColor,
   label,
   color,
+  type,
   ...props
 }: ButtonProps) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <button
-      type="button"
+      type={type}
       className={['storybook-button', `storybook-button--${size}`, `inline-block w-full rounded bg-primary px-7 pb-2.5 pt-3 text-sm 
         font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] 
         transition duration-150 ease-in-out hover:bg-[#1266f1]  

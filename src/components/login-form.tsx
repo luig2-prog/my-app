@@ -8,6 +8,14 @@ import { login } from '@/app/services/login';
 
 export const LoginForm = () => {
     const router = useRouter();
+
+    const onSubmit = () => {
+        const cookieName = 'myTokenName'
+        Cookies.set(cookieName, 'prueba')
+        console.log(Cookies.get(cookieName));
+        router.push('/dashboard')
+    }
+
     const [usernameLogin, setUsernameLogin] = useState<string>('');
     const [passwordLogin, setPasswordLogin] = useState<string>('');
 
@@ -70,24 +78,18 @@ export const LoginForm = () => {
                     onChange={handlePasswordChange}
                 />
             </div>
-            {/* Forgot password link */}
             {/* Submit button */}
-            <button type="submit">ok</button>
+            {/* <button type="submit">ok</button>
             <a
                 href="#!"
                 className="text-center text-primary transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 light:text-primary-400 light:hover:text-primary-500 light:focus:text-primary-500 light:active:text-primary-600"
             >
                 Forgot password?
-            </a>
+            </a> */}
             <Button backgroundColor="#1266f1"
-                label="Buttonsss"
-                onClick={() => {
-                    const cookieName = 'myTokenName'
-                    Cookies.set(cookieName, 'prueba')
-                    console.log(Cookies.get(cookieName));
-                    router.push('/dashboard')
-                }}
+                label="Ingresar"
+                onClick={onSubmit}
             />
         </form>
-    );
+    )
 }
