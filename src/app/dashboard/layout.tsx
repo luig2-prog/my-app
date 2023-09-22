@@ -1,10 +1,6 @@
 // import './globals.css'
-import Sidebar from '@/components/sidebar';
+import SidebarApp from '@/components/sidebar';
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import Script from 'next/script';
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Dashboard',
@@ -17,8 +13,8 @@ export default function DashboardLayout({
   children: React.ReactNode
 }) {
   return (
-    <Sidebar>
+    <SidebarApp>
       {children}
-    </Sidebar>
+    </SidebarApp>
   );
 }

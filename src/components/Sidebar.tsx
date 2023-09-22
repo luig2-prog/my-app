@@ -9,7 +9,7 @@ interface LayoutProps {
   description?: string;
 }
 
-const Sidebar: React.FC<LayoutProps> = ({ children }) => {
+const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className='flex'>
       <div className='fixed w-40 h-screen pt-4 p-2 bg-white border-r-[1px] flex flex-col justify-between'>
@@ -54,4 +54,4 @@ const Sidebar: React.FC<LayoutProps> = ({ children }) => {
   );
 };
 
-export default Sidebar;
+export default SidebarApp;
