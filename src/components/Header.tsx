@@ -1,10 +1,16 @@
 'use client'
+import { useRouter } from 'next/navigation'
 import { Button } from '@/stories/Button'
 import React, { useEffect } from 'react';
 import Cookies from 'js-cookie';
-import { useRouter } from 'next/navigation'
 
-const Header = (name: any) => {
+interface HeaderProps {
+  name: string;
+  username?: string;
+}
+
+const Header = (headerProps: HeaderProps) => {
+  console.log("🚀 ~ file: Header.tsx:8 ~ Header ~ name:", name)
   const cookieName = 'myTokenName';
   const router = useRouter()
   
@@ -23,10 +29,12 @@ const Header = (name: any) => {
   }, []);
 
   return (
-    <div className='flex justify-between px-4 pt-4'>
-        <h2>name</h2>
-        <h2>Welcome Back, Clint</h2>
-        <Button backgroundColor="#1266f1" label="Cerrar sesión" onClick={logout}/>
+    <div className='grid grid-flow-col items-center px-4 pt-4'>
+        <div className='col-span-12'>{headerProps.name}</div>
+        <div className=''>
+          <div>{headerProps.username}</div>
+          <a className='col-spa cursor-pointer' onClick={logout}>Cerrar sesión</a>
+        </div>
     </div>
   )
 }

@@ -29,6 +29,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: dashed;
+}
+
 .inbox-dashboard-view {
   background-color: #ffffff;
   display: flex;

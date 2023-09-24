@@ -22,6 +22,8 @@ interface ButtonProps {
   type?: 'submit' | 'reset' | 'button' | undefined;
 
   color?: string;
+
+  classNames?: string;
   /**
    * Optional click handler
    */
@@ -38,6 +40,7 @@ export const Button = ({
   label,
   color,
   type,
+  classNames,
   ...props
 }: ButtonProps) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
@@ -53,7 +56,7 @@ export const Button = ({
         active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] 
         light:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] 
         light:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] 
-        light:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] `, mode].join(' ')}
+        light:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] ${classNames}`, mode].join(' ')}
       {...props}
     >
       {label}

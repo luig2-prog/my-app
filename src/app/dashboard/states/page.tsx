@@ -12,7 +12,7 @@ const customers = () => {
   })
   return (
     <div className='bg-gray-100 min-h-screen'>
-      <Header name="Customer" />
+      <Header name="States" username="luis.hernandez.ji" />
       <div className='p-4'>
         <div className='m-auto p-4 border rounded-lg bg-white overflow-y-auto'>
           <div className='my-3 p-2 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-center cursor-pointer'>
