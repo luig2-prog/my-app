@@ -1,5 +1,4 @@
-export const data = [
-  [
+export const usersData = [
     {
       id: 1234567890,
       name: "John",
@@ -70,6 +69,5 @@ export const data = [
       username: "lindamartin",
       avatar: "https://example.com/avatar.jpg",
     }
-  ]
   ];
   

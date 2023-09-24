@@ -14,7 +14,6 @@ const Header = (name: any) => {
   }
   
   useEffect(() => {
-    console.log('e')
     // Lógica para eliminar la cookie cuando el componente se monta
     // Cookies.remove(cookieName);
     

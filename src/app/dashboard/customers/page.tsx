@@ -5,12 +5,12 @@ import Header from '@/components/Header';
 import Image from 'next/image';
 import img_team from '@/public/team.png';
 
-const users = () => {
+const customers = () => {
   // console.log('customers');
   usersData.map((users) => {
     console.log("🚀 ~ file: page.tsx:8 ~ data.map ~ customers:", users)
   })
-  console.log("🚀 ~ file: page.tsx:11 ~ data.map ~ data:", users)
+  console.log("🚀 ~ file: page.tsx:11 ~ data.map ~ data:", usersData)
   return (
     <div className='bg-gray-100 min-h-screen'>
       <Header name="Customer" />
@@ -51,4 +51,4 @@ const users = () => {
   );
 };
 
-export default users;
+export default customers;

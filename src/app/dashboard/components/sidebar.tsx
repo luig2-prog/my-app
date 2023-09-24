@@ -26,26 +26,26 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
             </div>
             <span className='p-2'>Users</span>
           </Link>
-          <Link href='/dashboard/orders' className='w-full flex items-center 
+          <Link href='/dashboard/customers' className='w-full flex items-center 
             hover:bg-gray-200 cursor-pointer p-3 rounded-lg'>
             <div className='inline-block'>
               <HiOutlineShoppingBag size={20} />
             </div>
             <span className='p-2'>Customers</span>
           </Link>
-          <Link href='/dashboard/orders_men' className='w-full flex items-center 
+          <Link href='/dashboard/states' className='w-full flex items-center 
             hover:bg-gray-200 cursor-pointer p-3 rounded-lg'>
             <div className='inline-block'>
               <HiOutlineShoppingBag size={20} />
             </div>
-            <span className='p-2'>Users</span>
+            <span className='p-2'>States</span>
           </Link>
-          <Link href='/dashboard' className='w-full flex items-center 
+          <Link href='/dashboard/flows' className='w-full flex items-center 
             hover:bg-gray-200 cursor-pointer p-3 rounded-lg'>
             <div className='inline-block'>
               <FiSettings size={20} />
             </div>
-            <span className='p-2'>Users</span>
+            <span className='p-2'>Flows</span>
           </Link>
         </div>
       </div>
