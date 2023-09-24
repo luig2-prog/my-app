@@ -19,7 +19,7 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
               <RxSketchLogo size={20} />
             </div>
           </Link>
-          <Link href='/dashboard/customers' className='w-full flex items-center 
+          <Link href='/dashboard/users' className='w-full flex items-center 
             hover:bg-gray-200 cursor-pointer p-3 rounded-lg'>
             <div className='inline-block'>
               <RxPerson size={20} />
