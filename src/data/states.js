@@ -2,17 +2,29 @@ export const states = [
   {
     id: 1,
     name: "Open",
-    description: "The case is open and not yet assigned to an agent"
+    description: "The case is open and not yet assigned to an agent",
+    position: { x: 0, y: 0 },
+    data: {
+      label: '⬛️',
+    },
   },
   {
     id: 2,
     name: "Assigned",
-    description: "The case has been assigned to an agent and is being worked on"
+    description: "The case has been assigned to an agent and is being worked on",
+    position: { x: 0, y: 0 },
+    data: {
+      label: '⬛️',
+    },
   },
   {
     id: 3,
     name: "In Progress",
-    description: "The case is currently being worked on by the assigned agent"
+    description: "The case is currently being worked on by the assigned agent",
+    position: { x: 0, y: 0 },
+    data: {
+      label: '⬛️',
+    },
   },
   {
     id: 4,

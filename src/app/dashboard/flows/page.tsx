@@ -4,6 +4,9 @@ import { usersData } from '../../../data/usersData.js';
 import Header from '@/components/Header';
 import Image from 'next/image';
 import img_team from '@/public/team.png';
+import FlowV2 from './flow-v2';
+import ReactFlowV2 from './flow-v2';
+// import Flow from '@/app/dashboard/flows/flow';
 
 const users = () => {
   // console.log('customers');
@@ -22,29 +25,11 @@ const users = () => {
             <span className='hidden md:grid'>Last Order</span>
             <span className='hidden sm:grid'>Method</span>
           </div>
-          <ul>
-            {usersData.map((user, id) => (
-              <li key={id} className='bg-gray-50 hover:bg-gray-100 rounded-lg 
-                my-3 p-2 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 
-                items-center justify-between cursor-pointer'>
-                <div className='flex items-center'>
-                  <div className='bg-purple-100 p-3 rounded-lg'>
-                    <BsPersonFill className='text-purple-800' />
-                  </div>
-                  <p className='pl-4'>{`${user.name} ${user.lastname}`}</p>
-                </div>
-                <p className='text-gray-600 sm:text-left text-right'>{user.username}</p>
-                <Image
-                  src={img_team}
-                  className="w-10"
-                  alt="Phone image"
-                />
-                <div className='sm:flex hidden justify-between items-center'>
-                  <BsThreeDotsVertical />
-                </div>
-              </li>
-            ))}
-          </ul>
+          <div style={{ height: 500 }}>
+            {/* <Flow /> */}
+            {/* <FlowV2 /> */}
+            <ReactFlowV2 />
+          </div>
         </div>
       </div>
     </div>
