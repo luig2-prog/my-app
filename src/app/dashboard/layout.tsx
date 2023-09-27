@@ -1,4 +1,3 @@
-// import './globals.css'
 import SidebarApp from '@/app/dashboard/components/sidebar';
 import type { Metadata } from 'next'
 

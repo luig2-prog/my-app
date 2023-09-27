@@ -2,10 +2,11 @@ import React from 'react';
 import { states } from '@/data/states.js';
 import Header from '@/components/Header';
 import { BsImageFill } from 'react-icons/bs';
-import { IoChevronDownOutline } from 'react-icons/io5';
+import { IoBusinessOutline, IoChevronDownOutline } from 'react-icons/io5';
 import { FaUserCircle } from 'react-icons/fa';
 import { GrConfigure } from 'react-icons/gr';
 import { TbInputSearch } from 'react-icons/tb';
+import Link from 'next/link';
 
 const config_app = () => {
   return (
@@ -14,12 +15,12 @@ const config_app = () => {
       <div className='p-4'>
         <div className='m-auto p-4 border rounded-lg bg-white overflow-y-auto'>
           <div className="grid grid-cols-3 gap-10 justify-center text-center">
-            <div className='grid justify-items-center mb-10 pt-5 cursor-pointer'>
+            <Link href='/dashboard/config-app/visual-settings' className='grid justify-items-center mb-10 pt-5 cursor-pointer'>
               <BsImageFill size={80} />
               <span className='pl-1 pr-1 pb-1'>Configuración visual</span>
-            </div>
+            </Link>
             <div className='grid justify-items-center mb-10 pt-5 cursor-pointer'>
-              <IoChevronDownOutline size={80} />
+              <IoBusinessOutline size={80} />
               <span className='pl-1 pr-1 pb-1'>Configuración de menús por clientes</span>
             </div>
             <div className='grid justify-items-center mb-10 pt-5 cursor-pointer'>
