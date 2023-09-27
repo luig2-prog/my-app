@@ -27,8 +27,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
   };
   return (
     <div className='flex'>
-      <div className={`grid ${isSidebarOpen ? '' : 'w-10'}`}>
-        <div className={`grid ${isSidebarOpen ? 'grid-cols-2' : ' w-10'}`}>
+      <div className={`flex flex-col transitiosn ${isSidebarOpen ? '' : 'w-14'}`}>
+        <div className={`flex items-center m-2 ${isSidebarOpen ? 'justify-evenly' : 'flex-col w-10'}`}>
           <Link href='/dashboard' className='w-11 h-11'>
             <div className='bg-[#1266f1] text-white p-3 rounded-lg inline-block'>
               <RxSketchLogo size={20} />
@@ -36,12 +36,12 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
           </Link>
           <button
             onClick={toggleSidebar}
-            className="msd:hidden lsg:hidden fidxed bg-resd-500 text-wshite p-2 rounded-full"
+            className="transform transition-transform duration-400 ease-in-out msd:hidden lsg:hidden fidxed bg-resd-500 text-wshite p-2 rounded-full"
           >
-           <AiOutlineMenu size={20} />
+           <AiOutlineMenu size={25} />
           </button>
         </div>
-        <div className={`w-16 md:w-48 lg:w-48 h-full pt-4 p-2 bg-white border-r-[1px] flex \
+        <div className={`w-16 md:w-48 lg:w-48 h-full pst-4 p-2 bg-white border-r-[1px] flex \
           flex-col justify-between transform transition-transform duration-300 ease-in-out 
           ${isSidebarOpen ? '' : '-translate-x-full'}`}>
           <div className='flex flex-col items-center'>
@@ -188,7 +188,7 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
           </div>
         </div>
       </div>
-      <main className={`transform transition-transform duration-400 ease-in-out 
+      <main className={`bg-gray-100 min-h-screen transform transition-transform duration-400 ease-in-out 
         ${isSidebarOpen ? 'translate-x-1' : ''}`}
       >
         {children}
