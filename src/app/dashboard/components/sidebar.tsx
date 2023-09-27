@@ -26,7 +26,7 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
     setIsSidebarOpen(!isSidebarOpen);
   };
   return (
-    <div className='flex'>
+    <div className='flex flex-row'>
       <div className={`flex flex-col transitiosn ${isSidebarOpen ? '' : 'w-14'}`}>
         <div className={`flex items-center m-2 ${isSidebarOpen ? 'justify-evenly' : 'flex-col w-10'}`}>
           <Link href='/dashboard' className='w-11 h-11'>
@@ -188,8 +188,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
           </div>
         </div>
       </div>
-      <main className={`bg-gray-100 min-h-screen transform transition-transform duration-400 ease-in-out 
-        ${isSidebarOpen ? 'translate-x-1' : ''}`}
+      <main className={`grow  bg-gray-100 min-h-screen transform ${isSidebarOpen ? 'translate-x-1' : ''} 
+        transition-transform duration-400 ease-in-out`}
       >
         {children}
       </main>
