@@ -3,7 +3,6 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function middleware(request: NextRequest) {
   const jwt = request.cookies.get("myTokenName");
-  console.log("🚀 ~ file: middleware.ts:6 ~ middleware ~ jwt:", request.nextUrl.pathname)
   if (request.nextUrl.pathname.startsWith('/dashboard')) {
     if (!jwt) return NextResponse.redirect(new URL("/", request.url));
   }

@@ -12,7 +12,6 @@ export const LoginForm = () => {
     const onSubmit = () => {
         const cookieName = 'myTokenName'
         Cookies.set(cookieName, 'prueba')
-        console.log(Cookies.get(cookieName));
         router.push('/dashboard')
     }
 
@@ -21,18 +20,14 @@ export const LoginForm = () => {
 
     const handleLogin = async (e: FormEvent) => {
         e.preventDefault();
-        console.log('handleLogin: ', e.target);
         try {
-            console.log('handleLogin', usernameLogin, passwordLogin)
-            const data = await login(usernameLogin, passwordLogin);
-
+            // const data = await login(usernameLogin, passwordLogin);
             const cookieName = 'myTokenName';
             Cookies.set(cookieName, 'prueba');
-            console.log(Cookies.get(cookieName));
             router.push('/dashboard');
         } catch (error) {
             console.error('Error en el inicio de sesión:', error);
-            // Puedes manejar el error de inicio de sesión aquí y mostrar un mensaje al usuario.
+            // Se puede manejar el error de inicio de sesión aquí y mostrar un mensaje al usuario.
         }
     };
 

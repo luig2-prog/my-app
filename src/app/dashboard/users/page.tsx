@@ -6,10 +6,6 @@ import Image from 'next/image';
 import img_team from '@/public/team.png';
 
 const users = () => {
-  // console.log('customers');
-  usersData.map((users) => {
-    console.log("🚀 ~ file: page.tsx:8 ~ data.map ~ customers:", users)
-  })
   return (
     <div className='bg-gray-100 min-h-screen'>
       <Header name="Users" username="luis.hernandez.ji" />
