@@ -10,7 +10,6 @@ interface HeaderProps {
 }
 
 const Header = (headerProps: HeaderProps) => {
-  console.log("🚀 ~ file: Header.tsx:8 ~ Header ~ name:", name)
   const cookieName = 'myTokenName';
   const router = useRouter()
   

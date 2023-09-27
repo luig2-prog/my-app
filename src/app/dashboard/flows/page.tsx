@@ -7,7 +7,6 @@ const users = () => {
   usersData.map((users) => {
     console.log("🚀 ~ file: page.tsx:8 ~ data.map ~ customers:", users)
   })
-  console.log("🚀 ~ file: page.tsx:11 ~ data.map ~ data:", users)
   return (
     <div className='bg-gray-100 min-h-screen'>
       <Header name="Flows" username="luis.hernandez.ji" />
