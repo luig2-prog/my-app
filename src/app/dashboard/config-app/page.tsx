@@ -14,7 +14,7 @@ const config_app = () => {
       <Header name="Administrar y configurar aplicación" username="luis.hernandez.ji" />
       <div className='p-4'>
         <div className='m-auto p-4 border rounded-lg bg-white overflow-y-auto'>
-          <div className="grid grid-cols-3 gap-10 justify-center text-center">
+          <div className="grid lg:grid-cols-3 gap-10 justify-center text-center">
             <Link href='/dashboard/config-app/visual-settings' className='grid justify-items-center mb-10 pt-5 cursor-pointer'>
               <BsImageFill size={80} />
               <span className='pl-1 pr-1 pb-1'>Configuración visual</span>

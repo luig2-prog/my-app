@@ -24,7 +24,7 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
       <div className='fixed w-48 h-screen pt-4 p-2 bg-white border-r-[1px] flex flex-col justify-between'>
         <div className='flex flex-col items-center'>
           <Link href='/dashboard'>
-            <div className='bg-purple-800 text-white p-3 rounded-lg inline-block'>
+            <div className='bg-[#1266f1] text-white p-3 rounded-lg inline-block'>
               <RxSketchLogo size={20} />
             </div>
           </Link>
