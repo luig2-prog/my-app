@@ -1,15 +1,9 @@
 import React from 'react';
-import { BsPersonFill, BsThreeDotsVertical } from 'react-icons/bs';
 import { usersData } from '../../../data/usersData.js';
 import Header from '@/components/Header';
-import Image from 'next/image';
-import img_team from '@/public/team.png';
-import FlowV2 from './flow-v2';
 import ReactFlowV2 from './flow-v2';
-// import Flow from '@/app/dashboard/flows/flow';
 
 const users = () => {
-  // console.log('customers');
   usersData.map((users) => {
     console.log("🚀 ~ file: page.tsx:8 ~ data.map ~ customers:", users)
   })
