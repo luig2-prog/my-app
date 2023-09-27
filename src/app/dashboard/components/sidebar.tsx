@@ -45,25 +45,18 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
           flex-col justify-between transform transition-transform duration-300 ease-in-out 
           ${isSidebarOpen ? '' : '-translate-x-1'}`}>
           <div className='flex flex-col items-center'>
-            <Link href='/dashboard/config-app' className='w-full flex 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/config-app' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <FcDataConfiguration size={20} />
               </div>
-              {
-                isSidebarOpen ? 
-                <>
-                  <span className='pl-1 pr-1 pb-1 '>Configuración del sistema</span><div className='inline-block mr-2'>
-                    <IoChevronDownOutline size={20} />
-                  </div>
-                </> : 
-                <div className='inline-block mr-2'>
-                  <IoChevronDownOutline size={20} />
-                </div>
-              }
+              <span className={`pl-1 pr-1 pb-1 ${isSidebarOpen ? '' : 'hidden'}`}>Configuración del sistema</span>
+              <div className='inline-block mr-2'>
+                <IoChevronDownOutline size={20} />
+              </div>
             </Link>
-            <Link href='/dashboard/config' className='w-full flex  
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/config' className={`w-full flex  ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'} 
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <AiOutlineDropbox size={20} />
               </div>
@@ -72,8 +65,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/users' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/users' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'} 
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <RxPerson size={20} />
               </div>
@@ -82,8 +75,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/customers' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/customers' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}  
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <FaUsers size={20} />
               </div>
@@ -92,8 +85,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/customers' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/customers' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}  
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <SiGoogletagmanager size={20} />
               </div>
@@ -102,8 +95,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/states' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/states' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}  
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <TiFlowMerge size={20} />
               </div>
@@ -112,8 +105,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/customers' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/customers' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}  
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <TbTemplate size={20} />
               </div>
@@ -122,8 +115,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/config' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/config' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}  
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <GrConfigure size={20} />
               </div>
@@ -132,8 +125,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/customers' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/customers' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}  
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <IoBusinessOutline size={20} />
               </div>
@@ -142,8 +135,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/customers' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/customers' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}  
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <AiOutlineUnorderedList size={20} />
               </div>
@@ -152,8 +145,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/customers' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/customers' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}  
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <TbReportSearch size={20} />
               </div>
@@ -162,8 +155,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/customers' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/customers' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}  
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <BsFillCloudUploadFill size={20} />
               </div>
@@ -172,8 +165,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/customers' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/customers' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}  
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <HiOutlineShoppingBag size={20} />
               </div>
@@ -182,8 +175,8 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
                 <IoChevronDownOutline size={20} />
               </div>
             </Link>
-            <Link href='/dashboard/flows' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
+            <Link href='/dashboard/flows' className={`w-full flex ${isSidebarOpen ? 'justify-between' : 'mt-2 mb-2'}  
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center`}>
               <div className='inline-block'>
                 <FiSettings size={20} />
               </div>
