@@ -28,7 +28,7 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
               <RxSketchLogo size={20} />
             </div>
           </Link>
-          <Link href='/dashboard/config' className='w-full flex justify-between 
+          <Link href='/dashboard/config-app' className='w-full flex justify-between 
             hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
             <div className='inline-block'>
               <FcDataConfiguration size={20} />
@@ -89,7 +89,7 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
             </div>
           </Link>
           <Link href='/dashboard/customers' className='w-full flex justify-between 
-            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center text-center text-center'>
+            hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
             <div className='inline-block'>
               <TbTemplate size={20} />
             </div>
