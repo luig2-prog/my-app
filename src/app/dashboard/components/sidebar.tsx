@@ -1,4 +1,5 @@
-import React from 'react';
+'use client'
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { RxSketchLogo, RxPerson } from 'react-icons/rx';
 import { HiOutlineShoppingBag } from 'react-icons/hi';
@@ -19,15 +20,24 @@ interface LayoutProps {
 }
 
 const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
   return (
-    <div className='flex'>
-      <div className='fixed w-48 h-screen pt-4 p-2 bg-white border-r-[1px] flex flex-col justify-between'>
+    <div className='grid grid-cols-1'>
+      <button
+        onClick={toggleSidebar}
+        className="msd:hidden lsg:hidden fixed top-4 left-4 bg-red-500 text-white p-2 rounded-full"
+      >Donde estoy</button>
+      <Link href='/dashboard'className='w-16'>
+        <div className='bg-[#1266f1] text-white p-3 rounded-lg inline-block'>
+          <RxSketchLogo size={20} />
+        </div>
+      </Link>
+      <div className={`w-16 md:w-48 lg:w-48 h-full pt-4 p-2 bg-white border-r-[1px] flex flex-col justify-between transform transition-transform duration-300 ease-in-out ${isSidebarOpen ? '' : '-translate-x-full'}`}>
         <div className='flex flex-col items-center'>
-          <Link href='/dashboard'>
-            <div className='bg-[#1266f1] text-white p-3 rounded-lg inline-block'>
-              <RxSketchLogo size={20} />
-            </div>
-          </Link>
           <Link href='/dashboard/config-app' className='w-full flex justify-between 
             hover:bg-gray-200 cursor-pointer p-1 rounded-lg text-center'>
             <div className='inline-block'>
@@ -170,7 +180,7 @@ const SidebarApp: React.FC<LayoutProps> = ({ children }) => {
           </Link>
         </div>
       </div>
-      <main className='w-full ml-48'>{children}</main>
+      <main className={`transform transition-transform duration-400 ease-in-out ${isSidebarOpen ? 'ml-48 translate-x-4' : ''}`}>{children}</main>
     </div>
   );
 };
